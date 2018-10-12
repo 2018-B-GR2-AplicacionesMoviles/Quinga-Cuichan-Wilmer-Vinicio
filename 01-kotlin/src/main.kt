@@ -92,7 +92,9 @@ class Usuario(public var nombre:String){ // 1er constructor
 
     override fun toString(): String{
         val apellidoMayusculas = if(!apellido.isNullOrBlank()) this.apellido?.toUpperCase() else ""
+        
         val apellidoMaternoMayusculas = if(!apellidoMaterno.isNullOrBlank()) this.apellidoMaterno?.toUpperCase() else ""
+        
         return "Hola $nombre $apellidoMayusculas $apellidoMaternoMayusculas"
     }
 }
