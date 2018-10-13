@@ -6,6 +6,8 @@
 import java.util.Date
 
 fun main(args: Array<String>){
+    datosIniciales() // Carga de datos
+
 
     println("Hola mundo")
 
@@ -50,13 +52,17 @@ fun main(args: Array<String>){
         }
     }
 
-    var bono = if (casado) 1000.00 else 0.00
+    val bono = if (casado) 1000.00 else 0.00
 
     val sueldoTotal = calcularSueldo(bono)
     println(sueldoTotal)
 
     val adrian = Usuario("Adrian","Eguez", "Sarzosa")
     println(adrian)
+
+    println(BaseDeDatos.Usuarios) // []
+    BaseDeDatos.agregarUsuario("Adrian")
+    println(BaseDeDatos.Usuarios) // ["Adrian"]
 
 }
 
@@ -83,7 +89,9 @@ class Usuario(public var nombre:String){ // 1er constructor
     }
 
     /*
+
     public var nombre:String
+
     constructor(vNombre: String){
         this.nombre = vNombre
         nombre = vNombre
@@ -96,3 +104,25 @@ class Usuario(public var nombre:String){ // 1er constructor
         return "Hola $nombre $apellidoMayusculas $apellidoMaternoMayusculas"
     }
 }
+
+
+class BaseDeDatos{
+    companion object {
+        val Usuarios:ArrayList<String> = ArrayList()
+        fun agregarUsuario(nombre:String){
+            Usuarios.add(nombre)
+        }
+    }
+}
+
+
+fun datosIniciales(){
+
+    var fechaNacimiento = Date()
+    BaseDeDatos.agregarUsuario("Adrian")
+    BaseDeDatos.agregarUsuario("Vicente")
+}
+
+
+
+
