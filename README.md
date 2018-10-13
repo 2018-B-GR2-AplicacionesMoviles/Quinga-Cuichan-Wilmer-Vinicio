@@ -1,4 +1,4 @@
-# eguez-sarzosa-vicente-adrian
+# Wilmer-Vinicio-Quinga-Cuichan
 Cambio 1
 Cambio 1.1
 Cambio 7
