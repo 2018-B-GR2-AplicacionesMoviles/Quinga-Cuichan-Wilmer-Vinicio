@@ -117,6 +117,7 @@ class BaseDeDatos{
 }
 
 
+
 fun datosIniciales(){
 
     var fechaNacimiento = Date()
