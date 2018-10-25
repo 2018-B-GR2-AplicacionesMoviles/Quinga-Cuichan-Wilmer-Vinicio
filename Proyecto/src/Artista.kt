@@ -10,8 +10,6 @@ import javax.swing.JScrollBar
 import javax.swing.JComboBox
 
 
-
-
 class PantallaArtista(string: String) : JFrame() {
 
     init {
@@ -51,6 +49,14 @@ class PantallaArtista(string: String) : JFrame() {
         val guardarArtista = JButton("Guardar")
         guardarArtista.isVisible = true
         guardarArtista.setBounds(400, 90, 90, 25)
+        guardarArtista.addActionListener {
+            BaseDeDatosArtista.agregarArtista(ingresarArtista.getText())
+            println(BaseDeDatosArtista.ArtistaB)
+            val comboBox = JComboBox(BaseDeDatosArtista.ArtistaB.toArray())
+
+            comboBox.isVisible = true
+
+        }
 
 
         val seleccionarArtista = Label("Seleccionar Artistas:")
@@ -73,7 +79,6 @@ class PantallaArtista(string: String) : JFrame() {
         textAreaArtista.isVisible = true
         textAreaArtista.setBounds(30, 280, 510, 100)
         textAreaArtista.isEditable = false
-
 
 
         isResizable = false

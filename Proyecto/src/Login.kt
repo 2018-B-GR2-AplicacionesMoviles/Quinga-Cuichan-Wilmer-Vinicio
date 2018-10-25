@@ -132,13 +132,12 @@ private fun createLogin() {
 }
 
 
-
 //funcion main
 fun main(args: Array<String>) {
 
-    val pantalla= PantallaLogin("Login")
+    val pantalla = PantallaLogin("Login")
     pantalla.createUILogin("Login")
-   // EventQueue.invokeLater(::createLogin)
+    // EventQueue.invokeLater(::createLogin)
     // datosIniciales() // Carga de datos
     //println(BaseDeDatos.toString()) // ["Adrian"]
 
