@@ -56,7 +56,6 @@ class PantallaLogin(title: String) : JFrame() {
 
             if (ingreseUsuario.getText() == "admin" && ingreseContraseña.getText() == "vini") {
 
-
                 JOptionPane.showInternalMessageDialog(null, "BIENVENIDOS")
 
                 menu.createUIMenu("Menú")
@@ -66,12 +65,10 @@ class PantallaLogin(title: String) : JFrame() {
 
                 JOptionPane.showInternalMessageDialog(null, "Error Datos vacios")
 
-
             } else {
                 JOptionPane.showInternalMessageDialog(null, "Error Datos Incorrectos")
 
             }
-
 
         }
 
@@ -127,19 +124,11 @@ class PantallaLogin(title: String) : JFrame() {
 private fun createLogin() {
 
     val framelogin = PantallaLogin("Moviles 2018-B")
-
     framelogin.isVisible = true
 }
 
-
 //funcion main
 fun main(args: Array<String>) {
-
     val pantalla = PantallaLogin("Login")
     pantalla.createUILogin("Login")
-    // EventQueue.invokeLater(::createLogin)
-    // datosIniciales() // Carga de datos
-    //println(BaseDeDatos.toString()) // ["Adrian"]
-
-
 }

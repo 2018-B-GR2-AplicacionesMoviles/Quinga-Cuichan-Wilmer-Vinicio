@@ -24,18 +24,17 @@ class PantallaMenu(title: String) : JFrame() {
 
     //crear menu
     fun createMenuBar() {
-        var disqueraP = PantallaDisquera("Disquera")
+  //      var disqueraP = PantallaDisquera("Disquera")
         var artistaP = PantallaArtista("Artista")
-        var tipocancionP = PantallaTipoCancion("Tipo Canción")
-        var generoP = PantallaGenero("Genero")
-
+     //   var tipocancionP = PantallaTipoCancion("Tipo Canción")
+    //    var generoP = PantallaGenero("Genero")
 
         val menuPrincipal = JMenuBar() //variable JMenuBar
 
         //crear opciones del menu
         val cancionM = JMenu("CANCION")
         val artista = JMenuItem("Artistas")
-       // val tipoCancion = JMenuItem("Tipo Canción")
+        // val tipoCancion = JMenuItem("Tipo Canción")
         //val diquera = JMenuItem("Disquera")
         ///val genero = JMenuItem("Genero")
         cancionM.add(artista)
@@ -44,34 +43,8 @@ class PantallaMenu(title: String) : JFrame() {
         artista.addActionListener { this.dispose() }
 
 
-
-
-       /* cancionM.add(tipoCancion)
-        tipoCancion.addActionListener { tipocancionP.createUITipoCancion("Tipo Canción") }
-        tipoCancion.addActionListener { this.dispose() }
-
-        cancionM.add(diquera)
-        diquera.addActionListener { disqueraP.createUIDisquera("Disquera") }
-        diquera.addActionListener { this.dispose() }
-
-        cancionM.add(genero)
-        genero.addActionListener{generoP.createUIGenero("Genero")}
-        genero.addActionListener { this.dispose() }*/
-
         menuPrincipal.add(cancionM) //agregar
 
-
-        //----------------------
-
-    /*    val usuariosM = JMenu("USUARIOS")
-        val a = JMenuItem("A ")
-        val b = JMenuItem("B")
-
-        usuariosM.add(a)
-        usuariosM.add(b)
-        menuPrincipal.add(usuariosM)
-*/
-        //----------------------
 
         val salir = JMenu("SALIR")
         val deseaSalir = JMenuItem("¿Desea Salir? ")
@@ -79,18 +52,12 @@ class PantallaMenu(title: String) : JFrame() {
         deseaSalir.mnemonic = KeyEvent.VK_E
         deseaSalir.toolTipText = "Exit application"
         deseaSalir.addActionListener { _: ActionEvent -> System.exit(0) }
-        deseaSalir.addActionListener{ JOptionPane.showInternalMessageDialog(null, "Gracias Por Su Visita")}
-
+        deseaSalir.addActionListener { JOptionPane.showInternalMessageDialog(null, "Gracias Por Su Visita") }
         salir.add(deseaSalir)
         menuPrincipal.add(salir)
 
-
         jMenuBar = menuPrincipal
-
-
     }
-
-
 }
 
 private fun createMenu() {
