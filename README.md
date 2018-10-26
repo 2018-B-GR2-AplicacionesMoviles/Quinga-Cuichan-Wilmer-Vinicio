@@ -1,5 +1,5 @@
-# WILMER VINICIO QUINGA CUICHAN
-Cambio 1
+# Quinga-Cuichan-Wilmer-Vinicio
+ Cambio 1
 Cambio 1.1
 Cambio 7
 
