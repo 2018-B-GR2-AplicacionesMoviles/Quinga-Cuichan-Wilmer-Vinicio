@@ -30,7 +30,7 @@ fun main(args: Array<String>){
 
     curso = 102
 
-    var nombre = "Adrian"
+    var nombre = "Vinicio"
 
     var apellido = 'H'
 
@@ -57,12 +57,12 @@ fun main(args: Array<String>){
     val sueldoTotal = calcularSueldo(bono)
     println(sueldoTotal)
 
-    val adrian = Usuario("Adrian","Eguez", "Sarzosa")
-    println(adrian)
+    val vinicio = Usuario("Vinicio","Quinga", "Cuichan")
+    println(vinicio)
 
     println(BaseDeDatos.Usuarios) // []
-    BaseDeDatos.agregarUsuario("Adrian")
-    println(BaseDeDatos.Usuarios) // ["Adrian"]
+    BaseDeDatos.agregarUsuario("Vinicio")
+    println(BaseDeDatos.Usuarios) // ["Vinicio"]
 
 }
 
@@ -89,9 +89,7 @@ class Usuario(public var nombre:String){ // 1er constructor
     }
 
     /*
-
     public var nombre:String
-
     constructor(vNombre: String){
         this.nombre = vNombre
         nombre = vNombre
@@ -120,10 +118,6 @@ class BaseDeDatos{
 fun datosIniciales(){
 
     var fechaNacimiento = Date()
-    BaseDeDatos.agregarUsuario("Adrian")
-    BaseDeDatos.agregarUsuario("Vicente")
+    BaseDeDatos.agregarUsuario("Vinicio")
+    BaseDeDatos.agregarUsuario("Wilmer")
 }
-
-
-
-
