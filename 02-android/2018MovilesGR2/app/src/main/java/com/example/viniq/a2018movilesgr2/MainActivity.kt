@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
             this.irAPantallaBotones() //se llama al metodo
 
         }
+        button_intent_respuesta.setOnClickListener{
+            this.irAPantallaDeIntentRespuesta()
+
+        }
     }
 
     //metodo para ir a otra pantalla
@@ -36,5 +40,12 @@ class MainActivity : AppCompatActivity() {
         this.startActivity(intentIrABotones)
 
 
+    }
+
+
+    fun irAPantallaDeIntentRespuesta() {
+        // INTENT
+        val intentRespuesta = Intent(this, IntentRespuestaActivity::class.java)
+        this.startActivity(intentRespuesta)
     }
 }

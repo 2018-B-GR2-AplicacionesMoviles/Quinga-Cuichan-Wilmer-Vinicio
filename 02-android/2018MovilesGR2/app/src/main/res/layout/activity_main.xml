@@ -86,4 +86,14 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp" />
 
+    <Button
+        android:id="@+id/button_intent_respuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="95dp"
+        android:text="intent_respuesta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
