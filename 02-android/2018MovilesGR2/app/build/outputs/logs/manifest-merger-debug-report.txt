@@ -1,0 +1,183 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d309ee69b8054530313d8ac54605e96f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3914bf5980eb7198bff0ff72037df1be\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c4941817a3c2d3c9eea73f75c1d1b354\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c4e3471ae1f2eb221fcae6c2ecc152c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\05bdec1abcd9942902e2f35b0dec5a94\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\afc16484230ea6a934fd9743b91a1462\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\e59550d0ce947350aa82b0f9b1a8857d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1e2b55d70d650e2956dd9257d1c712a2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\955afab1a39ca7d01547dcfb1610220f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\3d6c2d40dbe1520e5d68af7e4b4995e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\e3e2f89a63c0696f35041a066165c7b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\dab0bc81d4fe329a3221c6d575618c61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7215bc4a9b811d0695e64b4f61122fed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\b1fef892ad22bfd3a7638a173b9f2f88\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\62cfe12f81b0b087e305547c2d8007f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\13f2a42825d421d18207647f2a20e17a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\593ca283e75c895ea96eed8e8f9b49bd\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d71402efc13d7bc8c769f46df2f45641\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\6645cfc0259675a3f25e4f4c7aa772da\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5c40ac0c18ece5eb114afef208c3ec3e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\7509fe638393806403c6ab1727075f38\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\6bff2cf127b8035a225ea31eebc6c943\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d9366f53bbf8583d7b2dcf27cf12e44c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\944b07ee9e704f5d206f790d94dce75a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\82b308d54ef93aeb3ac99c08bea0db85\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\4ff9ed422f5932d00317b79e824b1782\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2ba3a1779c813f921b52d582dfe04873\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\74f5a8d20fe1e5cee79a3817d44c6623\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:5:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3914bf5980eb7198bff0ff72037df1be\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3914bf5980eb7198bff0ff72037df1be\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\593ca283e75c895ea96eed8e8f9b49bd\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\593ca283e75c895ea96eed8e8f9b49bd\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d71402efc13d7bc8c769f46df2f45641\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d71402efc13d7bc8c769f46df2f45641\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\593ca283e75c895ea96eed8e8f9b49bd\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.viniq.a2018movilesgr2.MainActivity
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.viniq.a2018movilesgr2.ButtonActivity
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:19:9-52
+	android:name
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:19:19-49
+activity#com.example.viniq.a2018movilesgr2.IntentRespuestaActivity
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:20:9-28:20
+	android:name
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:20:19-58
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:21:13-27:29
+action#android.intent.action.SEND
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:24:27-73
+data
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:26:17-55
+	android:mimeType
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:26:23-52
+activity#com.example.viniq.a2018movilesgr2.ResultadoPropioActivity
+ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:29:9-70
+	android:name
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml:29:19-58
+uses-sdk
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d309ee69b8054530313d8ac54605e96f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d309ee69b8054530313d8ac54605e96f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3914bf5980eb7198bff0ff72037df1be\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3914bf5980eb7198bff0ff72037df1be\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c4941817a3c2d3c9eea73f75c1d1b354\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c4941817a3c2d3c9eea73f75c1d1b354\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c4e3471ae1f2eb221fcae6c2ecc152c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c4e3471ae1f2eb221fcae6c2ecc152c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\05bdec1abcd9942902e2f35b0dec5a94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\05bdec1abcd9942902e2f35b0dec5a94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\afc16484230ea6a934fd9743b91a1462\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\afc16484230ea6a934fd9743b91a1462\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\e59550d0ce947350aa82b0f9b1a8857d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\e59550d0ce947350aa82b0f9b1a8857d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1e2b55d70d650e2956dd9257d1c712a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1e2b55d70d650e2956dd9257d1c712a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\955afab1a39ca7d01547dcfb1610220f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\955afab1a39ca7d01547dcfb1610220f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\3d6c2d40dbe1520e5d68af7e4b4995e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\3d6c2d40dbe1520e5d68af7e4b4995e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\e3e2f89a63c0696f35041a066165c7b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\e3e2f89a63c0696f35041a066165c7b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\dab0bc81d4fe329a3221c6d575618c61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\dab0bc81d4fe329a3221c6d575618c61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7215bc4a9b811d0695e64b4f61122fed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7215bc4a9b811d0695e64b4f61122fed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\b1fef892ad22bfd3a7638a173b9f2f88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\b1fef892ad22bfd3a7638a173b9f2f88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\62cfe12f81b0b087e305547c2d8007f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\62cfe12f81b0b087e305547c2d8007f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\13f2a42825d421d18207647f2a20e17a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\13f2a42825d421d18207647f2a20e17a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\593ca283e75c895ea96eed8e8f9b49bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\593ca283e75c895ea96eed8e8f9b49bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d71402efc13d7bc8c769f46df2f45641\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d71402efc13d7bc8c769f46df2f45641\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\6645cfc0259675a3f25e4f4c7aa772da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\6645cfc0259675a3f25e4f4c7aa772da\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5c40ac0c18ece5eb114afef208c3ec3e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5c40ac0c18ece5eb114afef208c3ec3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\7509fe638393806403c6ab1727075f38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\7509fe638393806403c6ab1727075f38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\6bff2cf127b8035a225ea31eebc6c943\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\6bff2cf127b8035a225ea31eebc6c943\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d9366f53bbf8583d7b2dcf27cf12e44c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\d9366f53bbf8583d7b2dcf27cf12e44c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\944b07ee9e704f5d206f790d94dce75a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\944b07ee9e704f5d206f790d94dce75a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\82b308d54ef93aeb3ac99c08bea0db85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\82b308d54ef93aeb3ac99c08bea0db85\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\4ff9ed422f5932d00317b79e824b1782\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\4ff9ed422f5932d00317b79e824b1782\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2ba3a1779c813f921b52d582dfe04873\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2ba3a1779c813f921b52d582dfe04873\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\74f5a8d20fe1e5cee79a3817d44c6623\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\viniQ\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\74f5a8d20fe1e5cee79a3817d44c6623\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\viniQ\Documents\GitHubM\Quinga-Cuichan-Wilmer-Vinicio\02-android\2018MovilesGR2\app\src\main\AndroidManifest.xml

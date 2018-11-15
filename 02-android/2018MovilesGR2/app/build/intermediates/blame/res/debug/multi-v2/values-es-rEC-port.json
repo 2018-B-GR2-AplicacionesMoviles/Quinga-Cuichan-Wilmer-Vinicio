@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\viniQ\\Documents\\GitHubM\\Quinga-Cuichan-Wilmer-Vinicio\\02-android\\2018MovilesGR2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rEC-port\\values-es-rEC-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\viniQ\\Documents\\GitHubM\\Quinga-Cuichan-Wilmer-Vinicio\\02-android\\2018MovilesGR2\\app\\src\\main\\res\\values-es-rEC-port\\colores.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "44",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "44",
+                        "endOffsets": "95"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\viniQ\\Documents\\GitHubM\\Quinga-Cuichan-Wilmer-Vinicio\\02-android\\2018MovilesGR2\\app\\src\\main\\res\\values-es-rEC-port\\texto.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "49",
+                        "endOffsets": "102"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "49",
+                        "endOffsets": "145"
+                    }
+                }
+            ]
+        }
+    ]
+}
