@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#D81B60</color>
     <color name="botones">#ffffff</color>
+    <color name="letras">#1aa1ab</color>
 
 </resources>

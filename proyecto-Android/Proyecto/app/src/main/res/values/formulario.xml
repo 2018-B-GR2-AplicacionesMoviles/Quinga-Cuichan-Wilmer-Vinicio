@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="nombre">Nombre:</string>
+    <string name="apellido">Apellido:</string>
+    <string name="correo">Correo:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="Password">Password:</string>
+
+
+
+
+</resources>

@@ -2,5 +2,7 @@
 <resources>
     <string name="tituloPrincipal"> CONTROLADORES</string>
 
+    <string name="epnTitulo">EPN Ingenieria En Sistemas</string>
+
 
 </resources>
