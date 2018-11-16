@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SegundaPantalla" />
-        <activity android:name=".TerceraPantalla"></activity>
+        <activity android:name=".TerceraPantalla" />
+        <activity android:name=".CuartaPantalla"></activity>
     </application>
 
 </manifest>

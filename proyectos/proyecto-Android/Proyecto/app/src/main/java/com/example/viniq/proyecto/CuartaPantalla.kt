@@ -3,17 +3,15 @@ package com.example.viniq.proyecto
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_segunda_pantalla.*
+import kotlinx.android.synthetic.main.activity_cuarta_pantalla.*
 
-class SegundaPantalla : AppCompatActivity() {
+class CuartaPantalla : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_segunda_pantalla)
+        setContentView(R.layout.activity_cuarta_pantalla)
 
-
-        botonSegundaPantalla.setOnClickListener{
-
+        botonCuartaPantalla.setOnClickListener {
             this.irOtraPantalla()
 
         }
@@ -21,7 +19,7 @@ class SegundaPantalla : AppCompatActivity() {
 
     fun irOtraPantalla() {
 
-        val intentOtraPantalla = Intent(this, CuartaPantalla::class.java) //ButtonActivity nombre de la otra actividad
+        val intentOtraPantalla = Intent(this, TerceraPantalla::class.java) //ButtonActivity nombre de la otra actividad
         this.startActivity(intentOtraPantalla)
     }
 }
