@@ -1,3 +1,5 @@
+
+
 package com.example.viniq.proyecto
 
 import android.content.Intent
@@ -22,6 +24,11 @@ class SegundaPantalla : AppCompatActivity() {
     fun irOtraPantalla() {
 
         val intentOtraPantalla = Intent(this, CuartaPantalla::class.java) //ButtonActivity nombre de la otra actividad
+
+        //intentOtraPantalla.putExtra("nombre", nombre.text)
+        //intentOtraPantalla.putExtra("apellido",apellido.text) //datos explicito 2 parametros
+
+
         this.startActivity(intentOtraPantalla)
     }
 }
