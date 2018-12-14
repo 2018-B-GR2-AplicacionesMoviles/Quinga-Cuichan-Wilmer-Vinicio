@@ -25,10 +25,17 @@ class ButtonActivity : AppCompatActivity() {
 
     }
 
+
+    //serializar los bit
+    // y desarializar
+
+    // como comunico 2 procesos
+    //parcelabel  datos comunes la clase
+
     //funcion para obtener los datos enviados desde
     //otra pantalla
     fun capturarDatosDelIntent() {
-        this.nombre = intent.getStringExtra("nombre")
+        this.nombre = intent.getStringExtra("nombre")//recive los datos del intent
         this.apellido = intent.getStringExtra("apellido")
 
         //se insatancia textView desde activity_button-xmk
@@ -37,13 +44,16 @@ class ButtonActivity : AppCompatActivity() {
     }
 
     //funcion enviar correo
-    fun enviarIntentCorreo() {
-        val correo = text_Correo.text//obtiene los datos del textview
+    fun enviarIntentCorreo() {//correo, subject, texto
+        val correo = text_Correo.text//obtiene los datos del textview el texto
         val subject = text_subject.text
         val texto = text_Texto.text
+        //obtien el texto
 
+        //intent explicito intento de enviar algo
         val intent = Intent(Intent.ACTION_SEND)//se define el intent en este caso de correo
-        intent.type = "text/html"//tipo
+        intent.type = "text/html"//tipode intent
+        //parametros
         intent.putExtra(Intent.EXTRA_EMAIL, arrayOf(correo, "vincio_520@hotmail.com"))
         intent.putExtra(Intent.EXTRA_SUBJECT, subject)
         intent.putExtra(Intent.EXTRA_TEXT, texto)

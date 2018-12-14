@@ -16,11 +16,16 @@ class MainActivity : AppCompatActivity() {
             this.irAPantallaBotones() //se llama al metodo
 
         }
-        button_intent_respuesta.setOnClickListener{
-            this.irAPantallaDeIntentRespuesta()
+
+        //boton para ir a otra pantalla
+        Boton_intent_respuesta.setOnClickListener {
+            this.irPantallaIntentRespuesta()
 
         }
     }
+//intent para abrir actividades dentreo de mi aplicacion
+    //para abrir actividades desntro de otra aplicacion
+
 
     //metodo para ir a otra pantalla
 
@@ -36,16 +41,24 @@ class MainActivity : AppCompatActivity() {
         intentIrABotones.putExtra("nombre", "Vinicio")
         intentIrABotones.putExtra("apellido", "Quinga") //datos explicito 2 parametros
 
-
+//intent explicito nombre de la clase q se abra  enviar datos
         this.startActivity(intentIrABotones)
-
-
     }
 
 
-    fun irAPantallaDeIntentRespuesta() {
-        // INTENT
-        val intentRespuesta = Intent(this, IntentRespuestaActivity::class.java)
+    //ir a otra pantalla
+    fun irPantallaIntentRespuesta() {
+        //contexto y la clase se envia
+        //intent explicito
+        val intentRespuesta = Intent(this, IntentRespuestaActivity::class.java) //ButtonActivity nombre de la otra actividad
         this.startActivity(intentRespuesta)
     }
+
+    fun irPantallaCicloVida() {
+        //contexto y la clase se envia
+        //intent explicito
+        val intentRespuesta = Intent(this, CicloVidaActivity::class.java) //ButtonActivity nombre de la otra actividad
+        this.startActivity(intentRespuesta)
+    }
+
 }
