@@ -22,6 +22,10 @@ class MainActivity : AppCompatActivity() {
             this.irPantallaIntentRespuesta()
 
         }
+
+        button_fragmentos.setOnClickListener {
+            this.irPantallaFragmentos()
+        }
     }
 //intent para abrir actividades dentreo de mi aplicacion
     //para abrir actividades desntro de otra aplicacion
@@ -59,6 +63,14 @@ class MainActivity : AppCompatActivity() {
         //intent explicito
         val intentRespuesta = Intent(this, CicloVidaActivity::class.java) //ButtonActivity nombre de la otra actividad
         this.startActivity(intentRespuesta)
+    }
+
+
+    fun irPantallaFragmentos() {
+        //contexto y la clase se envia
+        //intent explicito
+        val intentFragmentos = Intent(this, FragmentosActivity::class.java) //ButtonActivity nombre de la otra actividad
+        this.startActivity(intentFragmentos)
     }
 
 }
