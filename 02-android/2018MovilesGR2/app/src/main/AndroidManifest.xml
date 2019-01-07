@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.viniq.a2018movilesgr2">
+    package="com.example.usrdel.a2018movilesgr2">
 
     <application
         android:allowBackup="true"
@@ -27,7 +27,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".ResultadoPropioActivity" />
-        <activity android:name=".CicloVidaActivity"></activity>
+        <activity android:name=".CicloVidaActivity" />
+        <activity android:name=".ParcelableActivity" />
+        <activity android:name=".AdaptadorActivity" />
+        <activity android:name=".ReciclerViewActivity" />
+        <activity android:name=".FragmentosActivity"></activity>
     </application>
 
 </manifest>
