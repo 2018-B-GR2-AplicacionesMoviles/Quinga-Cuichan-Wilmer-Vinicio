@@ -15,8 +15,22 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        button_consultar.setOnClickListener {
+            this.irPantallaConsultar()
+        }
+
 
     }
+
+    fun irPantallaConsultar(){
+        //intent
+        //val imnutable no puede ser reasignada
+        val intentIrConsultar = Intent(this, ConsultarActivity::class.java) //ButtonActivity nombre de la otra actividad
+        this.startActivity(intentIrConsultar)
+
+
+    }
+
 
 
     fun irPantallaIngresar() {
