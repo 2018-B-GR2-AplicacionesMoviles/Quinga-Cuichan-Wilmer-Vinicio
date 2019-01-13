@@ -7,7 +7,7 @@
     tools:context=".IngresarActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText_nombreDisqera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
@@ -20,29 +20,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editText2_nombreArtista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="Nombre Artista"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editText"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintStart_toStartOf="@+id/editText_nombreDisqera"
+        app:layout_constraintTop_toBottomOf="@+id/editText_nombreDisqera" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editText3_generoMusica"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
         android:ems="10"
         android:hint="Genero de Musica"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editText2"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintStart_toStartOf="@+id/editText2_nombreArtista"
+        app:layout_constraintTop_toBottomOf="@+id/editText2_nombreArtista" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editText4_numeroTotalDiscos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
@@ -50,20 +50,20 @@
         android:ems="10"
         android:hint="Numero total de discos"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editText3"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintEnd_toEndOf="@+id/editText3_generoMusica"
+        app:layout_constraintTop_toBottomOf="@+id/editText3_generoMusica" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/editText5_precioDiscos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="1dp"
         android:ems="10"
         android:hint="Precio de disco"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editText4"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintEnd_toEndOf="@+id/editText4_numeroTotalDiscos"
+        app:layout_constraintTop_toBottomOf="@+id/editText4_numeroTotalDiscos" />
 
     <Button
         android:id="@+id/cancelarIngreso"

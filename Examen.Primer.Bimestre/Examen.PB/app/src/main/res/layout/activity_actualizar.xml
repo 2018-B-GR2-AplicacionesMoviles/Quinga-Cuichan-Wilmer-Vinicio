@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/text_NombreDisqueraActualizar"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="42dp"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textNombreArtistaActualizar"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="28dp"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textGeneroMusicaActualizar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_NombreDisqueraActualizar" />
+
+    <EditText
+        android:id="@+id/textGeneroMusicaActualizar"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="40dp"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textNumeroDiscosActualizar"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="27dp"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textPrecioDiscosActualizar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textGeneroMusicaActualizar" />
+
+    <EditText
+        android:id="@+id/textPrecioDiscosActualizar"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="91dp"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/button_Borrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textGeneroMusicaActualizar" />
+
+    <Button
+        android:id="@+id/button_Actualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="61dp"
+        android:layout_marginBottom="48dp"
+        android:text="Actualizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_Borrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="48dp"
+        android:text="Borrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>
