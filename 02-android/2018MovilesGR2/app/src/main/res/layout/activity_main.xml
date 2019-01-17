@@ -153,4 +153,16 @@
         app:layout_constraintStart_toStartOf="@+id/button_recycler_view"
         app:layout_constraintTop_toBottomOf="@+id/button_recycler_view" />
 
+    <Button
+        android:id="@+id/button_http"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="http"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_adaptador"
+        app:layout_constraintStart_toStartOf="@+id/button_adaptador"
+        app:layout_constraintTop_toBottomOf="@+id/button_adaptador" />
+
 </android.support.constraint.ConstraintLayout>
