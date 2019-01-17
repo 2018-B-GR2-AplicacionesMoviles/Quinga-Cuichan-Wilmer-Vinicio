@@ -58,6 +58,10 @@ class PrimerFragment : Fragment() {
 
 
 
+
+
+
+
 //se guarda los datos en la base del telefono
     override fun onStop() {
         super.onStop()

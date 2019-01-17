@@ -5,7 +5,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity" tools:layout_editor_absoluteY="81dp">
+        tools:context=".MainActivity">
+
 
     <Button
             android:text="@string/boton_artistas"
@@ -14,7 +15,7 @@
             android:id="@+id/button_Artista"
             style="@android:style/Widget.Button.Inset"
             android:fontFamily="casual"
-            app:layout_constraintTop_toBottomOf="@+id/button_disquera" android:layout_marginBottom="21dp"
+            app:layout_constraintTop_toBottomOf="@+id/button_disquera" android:layout_marginBottom="25dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/button_Cancion"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="27dp" android:layout_marginEnd="27dp"/>
@@ -28,7 +29,7 @@
             android:layout_marginTop="48dp" android:layout_marginBottom="20dp" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/button_Artista" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="27dp" android:layout_marginEnd="27dp"/>
+            android:layout_marginStart="32dp" android:layout_marginEnd="27dp"/>
     <Button
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -38,4 +39,7 @@
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginStart="29dp" android:layout_marginEnd="29dp"/>
+
+
+
 </android.support.constraint.ConstraintLayout>
