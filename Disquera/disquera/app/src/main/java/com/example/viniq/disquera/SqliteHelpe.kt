@@ -24,42 +24,29 @@ val COLUMNA_DISQUERAARTISTA = "disqueraArtista"
 val ID_ARTISTA = "idArtista"
 
 
-
-
-
-class SqliteHelpe(val context: Context) : SQLiteOpenHelper(
-    context,
-    DATABASE_NAME,
-    null,
-    1
-) {
+class SqliteHelpe(val context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, 2) {
     override fun onCreate(db: SQLiteDatabase?) {
 
         ///TABLA DISQUERA
-        val createTablaDisquera = "CREATE TABLE " + TABLE_NAMEDISQUERA + "(" +
-                ID_DISQUERA + " INTEGER PRIMARY KEY AUTOINCREMENT," +
-                COLUMNA_NOMBREDISQUERA + " VARCHAR(256)," +
-                COLUMNA_DIRRECCIONDISQUERA + " VARCHAR(256)," +
-                COLUMNA_TELEFONODISQUERA + " INTEGER)"
+        val createTablaDisquera = "CREATE TABLE " + TABLE_NAMEDISQUERA + "(" + ID_DISQUERA + " INTEGER PRIMARY KEY AUTOINCREMENT," + COLUMNA_NOMBREDISQUERA + " VARCHAR(256)," + COLUMNA_DIRRECCIONDISQUERA + " VARCHAR(256)," + COLUMNA_TELEFONODISQUERA + " INTEGER)"
 
 
         ///TABLAR ARTISTA
-        val createTablaArtista = "CREATE TABLE " + TABLE_NAMEARTISTA + "(" +
-                ID_ARTISTA + " INTEGER PRIMARY KEY AUTOINCREMENT," +
-                COLUMNA_NOMBREARTISTA + " VARCHAR(256)," +
-                COLUMNA_NACIONALIDADARTISTA + "VARCHAR(256)," +
-                COLUMNA_DISQUERAARTISTA + "VARCHAR(256))"
+        val createTablaArtista = "CREATE TABLE " + TABLE_NAMEARTISTA + "(" + ID_ARTISTA + " INTEGER PRIMARY KEY AUTOINCREMENT," + COLUMNA_NOMBREARTISTA + " VARCHAR(256)," + COLUMNA_NACIONALIDADARTISTA + "VARCHAR(256)," + COLUMNA_DISQUERAARTISTA + "VARCHAR(256))"
 
         db?.execSQL(createTablaDisquera)
         db?.execSQL(createTablaArtista)
 
 
-
     }
 
-    override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
 
+    override fun onUpgrade(db1: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
 
+        db1?.execSQL("DROP TABLE IF EXISTS" + TABLE_NAMEARTISTA)
+        db1?.execSQL("DROP TABLE IF EXISTS" + TABLE_NAMEDISQUERA)
+
+        onCreate(db1)
 
 
     }
@@ -75,11 +62,7 @@ class SqliteHelpe(val context: Context) : SQLiteOpenHelper(
         cv.put(COLUMNA_DIRRECCIONDISQUERA, respuestaDisquera.direccionDisquera)
         cv.put(COLUMNA_TELEFONODISQUERA, respuestaDisquera.telefonoDisquera)
 
-        val resultadoDisquera = db.insert(
-            TABLE_NAMEDISQUERA,
-            null,
-            cv
-        )
+        val resultadoDisquera = db.insert(TABLE_NAMEDISQUERA, null, cv)
 
         if (resultadoDisquera == -1.toLong()) {
             Toast.makeText(context, "Error Datos no Guardados", Toast.LENGTH_SHORT).show()
@@ -102,20 +85,13 @@ class SqliteHelpe(val context: Context) : SQLiteOpenHelper(
             do {
                 var respuestaDisquera = RespuestaDisquera()
 
-                respuestaDisquera.idDisquera = resultadoDisquera.getString(
-                    resultadoDisquera.getColumnIndex(ID_DISQUERA)
-                ).toInt()
+                respuestaDisquera.idDisquera = resultadoDisquera.getString(resultadoDisquera.getColumnIndex(ID_DISQUERA)).toInt()
 
-                respuestaDisquera.nombreDisquera = resultadoDisquera.getString(
-                    resultadoDisquera.getColumnIndex(COLUMNA_NOMBREDISQUERA)
-                )
+                respuestaDisquera.nombreDisquera = resultadoDisquera.getString(resultadoDisquera.getColumnIndex(COLUMNA_NOMBREDISQUERA))
 
-                respuestaDisquera.direccionDisquera = resultadoDisquera.getString(
-                    resultadoDisquera.getColumnIndex(COLUMNA_DIRRECCIONDISQUERA)
-                )
+                respuestaDisquera.direccionDisquera = resultadoDisquera.getString(resultadoDisquera.getColumnIndex(COLUMNA_DIRRECCIONDISQUERA))
 
-                respuestaDisquera.telefonoDisquera =
-                        resultadoDisquera.getString(resultadoDisquera.getColumnIndex(COLUMNA_TELEFONODISQUERA)).toInt()
+                respuestaDisquera.telefonoDisquera = resultadoDisquera.getString(resultadoDisquera.getColumnIndex(COLUMNA_TELEFONODISQUERA)).toInt()
 
                 disqueraLista.add(respuestaDisquera)
 
@@ -128,24 +104,17 @@ class SqliteHelpe(val context: Context) : SQLiteOpenHelper(
     }
 
 
-
-
-
     //insertar datos en la base Sqlite
     fun insertarDatosArtista(respuestaArtista: RespuestaArtista) {
 
-        val db = this.writableDatabase
-        var cv = ContentValues()
+        val db1 = this.writableDatabase
+        var cv1 = ContentValues()
 
-        cv.put(COLUMNA_NOMBREARTISTA, respuestaArtista.nombreArtista)
-        cv.put(COLUMNA_NACIONALIDADARTISTA, respuestaArtista.nacionalidadArtista)
-        cv.put(COLUMNA_DISQUERAARTISTA, respuestaArtista.disqueraArtista)
+        cv1.put(COLUMNA_NOMBREARTISTA, respuestaArtista.nombreArtista)
+        cv1.put(COLUMNA_NACIONALIDADARTISTA, respuestaArtista.nacionalidadArtista)
+        cv1.put(COLUMNA_DISQUERAARTISTA, respuestaArtista.disqueraArtista)
 
-        var resultadoArtista = db.insert(
-            TABLE_NAMEARTISTA,
-            null,
-            cv
-        )
+        var resultadoArtista = db1.insert(TABLE_NAMEARTISTA, null, cv1)
 
 
         if (resultadoArtista == -1.toLong()) {
@@ -157,13 +126,6 @@ class SqliteHelpe(val context: Context) : SQLiteOpenHelper(
 
         }
     }
-
-
-
-
-
-
-
 
 
 }

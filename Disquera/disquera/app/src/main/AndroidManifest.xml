@@ -2,9 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.viniq.disquera">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 
     <!-- Permission declaration -->
-    <permission android:name="disquera.PERMISSION" />
 
     <application
             android:allowBackup="true"
@@ -26,7 +27,6 @@
         </activity>
         <activity android:name=".CancionActivity">
         </activity>
-
 
 
     </application>
