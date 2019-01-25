@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DISQUERA</string>
+    <string name="boton_artistas">INGRESAR ARTISTA</string>
+    <string name="tituloArtist">INGRESAR ARTISTA</string>
+    <string name="nombreArtista">Nombre Artista</string>
+    <string name="nacionalidadArtista">Nacionalidad Artista</string>
+    <string name="guardarBoton">Guardar</string>
+    <string name="buscarBoton">Buscar</string>
+    <string name="actualizarBoton">Actualizar</string>
+    <string name="borrarBoton">Eliminar</string>
+    <string name="disquera">INGRESAR DISQUERA</string>
+
+    <string name="tituloDisquera">INGRESAR DISQUERA</string>
+    <string name="nombreDisquera">Nombre Disquera</string>
+    <string name="direccionDisquera">Direccion Disquera</string>
+    <string name="telefonoDisquera">Telefono Disquera</string>
+    <string name="tituloCancioNB">INGRESAR CANCION</string>
+
+
+</resources>

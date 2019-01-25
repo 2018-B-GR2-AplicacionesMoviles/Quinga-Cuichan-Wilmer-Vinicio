@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "164644255601",
+    "firebase_url": "https://prueba1-25a46.firebaseio.com",
+    "project_id": "prueba1-25a46",
+    "storage_bucket": "prueba1-25a46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164644255601:android:ea9b2ac5b46aa7e5",
+        "android_client_info": {
+          "package_name": "com.example.usrdel.a2018movilesgr2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164644255601-uanaeom0ep9bvaei99hqoldk75e7cdg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7bxSafIkcaSw2pUUxx78eUdNA_RtMaoU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

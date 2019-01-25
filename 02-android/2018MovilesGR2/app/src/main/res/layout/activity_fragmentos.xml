@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         android:text="Segundo"
         app:layout_constraintBottom_toBottomOf="@+id/button_crear_primer_fragmento"
         app:layout_constraintStart_toEndOf="@+id/button_crear_primer_fragmento"
