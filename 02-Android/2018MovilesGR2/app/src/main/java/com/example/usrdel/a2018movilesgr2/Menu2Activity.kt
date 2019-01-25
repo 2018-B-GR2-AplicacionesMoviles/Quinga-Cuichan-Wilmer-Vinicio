@@ -8,7 +8,6 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.ArrayAdapter
-import com.example.usrdel.a2018movilesgr2.R.styleable.Snackbar
 
 
 import kotlinx.android.synthetic.main.activity_menu2.*

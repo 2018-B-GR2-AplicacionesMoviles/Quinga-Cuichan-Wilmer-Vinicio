@@ -168,15 +168,29 @@
 
     <Button
         android:id="@+id/button_menu"
-        android:layout_width="32dp"
-        android:layout_height="17dp"
+        android:layout_width="134dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="48dp"
         android:text="ASD"
-        app:layout_constraintEnd_toEndOf="@+id/button_http"
-        app:layout_constraintHorizontal_bias="0.312"
-        app:layout_constraintStart_toStartOf="@+id/button_http"
-        app:layout_constraintTop_toBottomOf="@+id/button_http"
+        app:layout_constraintEnd_toStartOf="@+id/button_http"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toEndOf="@+id/button_fragmento"
+        app:layout_constraintTop_toBottomOf="@+id/button_intent_parcelable"
         tools:text="Menu" />
+
+    <Button
+        android:id="@+id/button_Camara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="Camara"
+        app:layout_constraintEnd_toStartOf="@+id/button_http"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toEndOf="@+id/button_fragmento"
+        app:layout_constraintTop_toBottomOf="@+id/button_menu" />
 
 </android.support.constraint.ConstraintLayout>
