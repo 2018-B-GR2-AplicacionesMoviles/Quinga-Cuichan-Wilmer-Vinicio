@@ -13,9 +13,6 @@ import kotlinx.android.synthetic.main.lista_recycler_view_layout.*
 
 class PrimerFragment : Fragment() {
 
-
-
-
     override fun onCreateView(inflater: LayoutInflater,
                               container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -28,9 +25,6 @@ class PrimerFragment : Fragment() {
         )
     }
 
-
-
-
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
@@ -38,7 +32,7 @@ class PrimerFragment : Fragment() {
 
         val respuestaUsuario = helper.existeUsuarioFormulario()
 
-        edit_text_nombre.setText(respuestaUsuario.nombre) //
+        edit_text_nombre.setText(respuestaUsuario.nombre)
         edit_text_descripcion.setText(respuestaUsuario.descripcion)
 
         Log.i("bdd", "Vamos a recuperar los datos")
@@ -55,21 +49,11 @@ class PrimerFragment : Fragment() {
         }
     }
 
-
-
-
-
-
-
-
-//se guarda los datos en la base del telefono
     override fun onStop() {
         super.onStop()
 
-        //toma los datos de la interfaz
         val textoNombre = edit_text_nombre.text
         val textoDescripcion = edit_text_descripcion.text
-
         Log.i("bdd", "Vamos a guardar los datos")
 
         // Verificar si ya existe los datos

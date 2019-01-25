@@ -6,18 +6,15 @@ import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.util.Log
 
-//contexto es el this de cada lugar
+
 class SqliteHelper(context: Context?) :
         SQLiteOpenHelper(context,
                 "moviles", // Nombre de la base de datos
                 null,
                 1) {
 
-
-    //recive la base de datos
     override fun onCreate(baseDeDatos: SQLiteDatabase?) {
 
-        //se crea la tabla
         val crearTablaUsuario = "CREATE TABLE " +
                 "usuario " +
                 "(" +
@@ -26,37 +23,29 @@ class SqliteHelper(context: Context?) :
                 "descripcion VARCHAR(50)" +
                 ")"
         Log.i("bdd", "Creando la tabla de usuario \n$crearTablaUsuario")
-        baseDeDatos?.execSQL(crearTablaUsuario) //tabla usuario
+        baseDeDatos?.execSQL(crearTablaUsuario)
     }
 
-
-    //recive la version antigua y la nueva version
     override fun onUpgrade(baseDeDatos: SQLiteDatabase?,
                            antiguaVersion: Int,
                            nuevaVersion: Int) {
 
     }
 
-    //las 4 operaciones de una aplicacion
-
-//lo primero que se hace es ver si existe el usuario
-
-
     fun existeUsuarioFormulario(): RespuestaUsuarioGuardado {
 
-        val statement = "select * from usuario where id=1;" //buscar al usuario
+        val statement = "select * from usuario where id=1;"
 
-        val dbReadable = readableDatabase //se lee la base de datos
+        val dbReadable = readableDatabase
 
         val resultado = dbReadable.rawQuery(statement, null)
 
-            //RespuestaUsuarioGuardado otra clase
         val respuestaUsuario = RespuestaUsuarioGuardado(null, null)
 
         if (resultado.moveToFirst()) {
             do {
-                respuestaUsuario.nombre = resultado.getString(1)//recupera los datos guarda los datos
-                respuestaUsuario.descripcion = resultado.getString(2) //recupera los datos
+                respuestaUsuario.nombre = resultado.getString(1)
+                respuestaUsuario.descripcion = resultado.getString(2)
             } while (resultado.moveToNext())
         }
 
@@ -64,12 +53,9 @@ class SqliteHelper(context: Context?) :
 
         dbReadable.close()
 
-        return respuestaUsuario //devulve la respuesta del usuario
+        return respuestaUsuario
     }
 
-
-
-    //funcion para crear el usuario, recive los 2 datos
     fun crearUsuarioFormulario(nombre: String,
                                descripcion: String): Boolean {
         // Base de datos de escritura
@@ -118,20 +104,64 @@ class SqliteHelper(context: Context?) :
     }
 
     fun eliminarUsuarioFormulario(): Boolean {
-        val dbWriteable = writableDatabase //base de datos de escritura
+        val dbWriteable = writableDatabase
 
-        val nombreTabla = "usuario"//nombre de la tabla
-        val clausulaWhere = "id = ?"//identificador se iguala
-        val parametros = arrayOf("1")//el id del usuario
-        val respuesta = dbWriteable.delete( //borrar un usario
+        val nombreTabla = "usuario"
+        val clausulaWhere = "id = ?"
+        val parametros = arrayOf("1")
+        val respuesta = dbWriteable.delete(
                 nombreTabla,
                 clausulaWhere,
                 parametros
         )
-        return if (respuesta == -1) false else true //respuesta -1 nop pudo eliminar un usuario
+        return if (respuesta == -1) false else true
     }
 
 
+    /*
+    override fun onCreate(db: SQLiteDatabase?) {
+
+        val createTableSQL = "CREATE TABLE ${BaseDeDatos.BDD_TABLA_USUARIO_NOMBRE} (${BaseDeDatos.BDD_TABLA_USUARIO_CAMPO_ID} INTEGER PRIMARY KEY AUTOINCREMENT, ${BaseDeDatos.BDD_TABLA_USUARIO_CAMPO_NOMBRE} VARCHAR(50))"
+
+        db?.execSQL(createTableSQL)
+    }
+
+
+    override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    fun insertarUsuario(nombre: String) {
+        val dbWriteable = writableDatabase
+        val cv = ContentValues()
+
+        cv.put(BaseDeDatos.BDD_TABLA_USUARIO_CAMPO_NOMBRE, nombre)
+
+        val resultado = dbWriteable.insert(BaseDeDatos.BDD_TABLA_USUARIO_NOMBRE, null, cv)
+
+        Log.i("database", "Si es -1 hubo error, sino exito: Respuesta: $resultado")
+
+        dbWriteable.close()
+
+    }
+
+    fun leerDatos() {
+        val dbReadable = readableDatabase
+
+        val query = "SELECT * FROM ${BaseDeDatos.BDD_TABLA_USUARIO_NOMBRE}"
+
+        val resultado = dbReadable.rawQuery(query, null)
+        if (resultado.moveToFirst()) {
+            do {
+                val idActual = resultado.getString(0).toInt()
+                val nombreActual = resultado.getString(1)
+                Log.i("database", "El nombre es $nombreActual con id $idActual")
+            } while (resultado.moveToNext())
+        }
+        resultado.close()
+        dbReadable.close()
+    }
+*/
 }
 
 
